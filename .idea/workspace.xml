@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d935d006-6aa6-4fb6-b808-317957bd2c17" name="Changes" comment="Fin" />
+    <list default="true" id="d935d006-6aa6-4fb6-b808-317957bd2c17" name="Changes" comment="Fin">
+      <change afterPath="$PROJECT_DIR$/src/main/java/dev/labs/s3/AbstractClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dev/labs/s3/FinalClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dev/labs/s3/ObjectMethodsExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -33,6 +38,9 @@
     &quot;assignee&quot;: &quot;AkinyiFO&quot;
   }
 }</component>
+  <component name="GithubDefaultAccount">
+    <option name="defaultAccountId" value="0c8b5c79-e5b0-425a-9bc9-ec35fb47c7fb" />
+  </component>
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
     &quot;url&quot;: &quot;https://github.com/AkinyiFO/Defining-Methods.git&quot;,
@@ -55,7 +63,7 @@
     "Application.Main.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "com.google.cloudcode.ide_session_index": "20250408_0000",
+    "com.google.cloudcode.ide_session_index": "20250409_0000",
     "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
