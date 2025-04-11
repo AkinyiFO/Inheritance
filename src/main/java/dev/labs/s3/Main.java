@@ -15,11 +15,11 @@ public class Main {
         // TODO 4. The inherited methods can be used directly as they are.
         oracle2.disconnect();
 
-        // Calling the hiding static method
-        Oracle2.testHiding();
-
         // Calling the overridden method
         oracle2.printStatus();
+
+        // Calling the hiding static method
+        Oracle2.testHiding();
 
         // Calling the new method in AdvancedDatabase
         oracle2.backupDatabase();
