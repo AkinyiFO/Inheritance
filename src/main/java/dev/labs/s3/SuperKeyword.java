@@ -10,6 +10,7 @@ public class SuperKeyword {
 
 }
 
+// Step ...
 class SuperClass {
     // No explicit constructor, so it uses the default constructor from Object.
 }
@@ -27,7 +28,7 @@ class SuperClassParameterized {
 
 // This will result in a compile-time error because the super class does not have a no-argument constructor.
 class SubClassParameterized extends SuperClassParameterized {
-    // No constructor explicitly, so Java will try to insert a super() call.
+
 }
 
 class JustObjectSuperclass{
