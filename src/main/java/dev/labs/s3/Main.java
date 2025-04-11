@@ -28,6 +28,7 @@ public class Main {
         // 1. Implicit casting
         Object db = new Oracle2("jdbc:mysql://localhost:3306", "admin", "adminPass", "MySQL");
         Database db1 = new Oracle2("jdbc:mysql://localhost:3306", "admin", "adminPass", "MySQL");
+        SQLDefault sqlD = new Oracle2("jdbc:mysql://localhost:3306", "admin", "adminPass", "MySQL");
 
         // 2. Explicit casting
         Oracle2 oracle = (Oracle2) db; // The compiler does not know Object to be Oracle2
