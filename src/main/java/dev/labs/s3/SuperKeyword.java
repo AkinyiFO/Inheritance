@@ -4,7 +4,7 @@ public class SuperKeyword {
     public class Main {
         public static void main(String[] args) {
             SubClass sub = new SubClass();  // This works because SuperClass has a default constructor.
-            SubClassParameterized subPar = new SubClassParameterized();
+//            SubClassParameterized subPar = new SubClassParameterized();
         }
     }
 
@@ -27,9 +27,9 @@ class SuperClassParameterized {
 }
 
 // This will result in a compile-time error because the super class does not have a no-argument constructor.
-class SubClassParameterized extends SuperClassParameterized {
-
-}
+//class SubClassParameterized extends SuperClassParameterized {
+//
+//}
 
 class JustObjectSuperclass{
 
