@@ -1,16 +1,7 @@
 package dev.labs.s3;
 
-public class SuperKeyword {
-    public class Main {
-        public static void main(String[] args) {
-            SubClass sub = new SubClass();  // This works because SuperClass has a default constructor.
-//            SubClassParameterized subPar = new SubClassParameterized();
-        }
-    }
+public class SuperKeyword { }
 
-}
-
-// Step ...
 class SuperClass {
     // No explicit constructor, so it uses the default constructor from Object.
 }
@@ -33,6 +24,13 @@ class SuperClassParameterized {
 
 class JustObjectSuperclass{
 
+}
+
+class TestIt {
+    public static void main(String[] args) {
+        SubClass sub = new SubClass();  // This works because SuperClass has a default constructor.
+//            SubClassParameterized subPar = new SubClassParameterized();
+    }
 }
 
 /*
