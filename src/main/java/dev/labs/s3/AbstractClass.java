@@ -1,7 +1,7 @@
 package dev.labs.s3;
 
-// CANNOT be instantiated.
-// CAN be subclassed.
+// Like interfaces, an abstract class CANNOT be instantiated.
+// Unlike final classes, an abstract class CAN be subclassed.
 // MUST be declared abstract if it contains abstract methods.
 abstract class AbstractClass {
     public static void main(String[] args) {
