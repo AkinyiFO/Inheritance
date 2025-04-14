@@ -22,7 +22,7 @@ class SubAbstract extends AbstractClass{
 }
 
 // 2. abstract classes or interfaces may contain implemented or abstract methods:
-// 3. All fields are automatically public, static, final. All methods are public by default.
+// 3. In interfaces, all fields are automatically public, static, final. All methods are public by default.
 interface CompareWithAbstract{
     void methodAbstract();
     default void methodDefault(){}
