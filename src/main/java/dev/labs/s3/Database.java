@@ -33,6 +33,10 @@ class Database implements SQLDefault{
         return sql;
     }
 
+    void useAsIs(){
+        System.out.println("Accessed from Database directly");
+    }
+
     void connect(String newConnectionString, String newUsername, String newPassword) {
         connectionString = newConnectionString;
         username = newUsername;

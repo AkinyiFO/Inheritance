@@ -3,7 +3,7 @@ package dev.labs.s3;
 public class Main {
     public static void main(String[] args) {
         // Create an instance of the subclass
-        Oracle2 oracle2 = new Oracle2("jdbc:mysql://localhost:3306", "admin", "adminPass", "MySQL");
+        Oracle2 oracle2 = new Oracle2("jdbc:mysql://localhost:3306", "admin", "adminPass", "Oracle2");
 
         // TODO 1. The inherited fields can be used directly, just like any other fields.
         System.out.println(oracle2.inheritedField);
@@ -12,8 +12,8 @@ public class Main {
         System.out.println(oracle2.hiddenName);
         System.out.println(oracle2.sameNameDifferentType);
 
-        // TODO 4. The inherited methods can be used directly as they are.
-        oracle2.disconnect();
+//        // TODO 4. The inherited methods can be used directly as they are.
+        oracle2.useAsIs();
 
         // Calling the overridden method
         oracle2.printStatus();
@@ -26,9 +26,9 @@ public class Main {
 
         // Casting
         // 1. Implicit casting
-        Object db = new Oracle2("jdbc:mysql://localhost:3306", "admin", "adminPass", "MySQL");
-        Database db1 = new Oracle2("jdbc:mysql://localhost:3306", "admin", "adminPass", "MySQL");
-        SQLDefault sqlD = new Oracle2("jdbc:mysql://localhost:3306", "admin", "adminPass", "MySQL");
+        Object db = new Oracle2("jdbc:mysql://localhost:3306", "admin", "adminPass", "Oracle2");
+        Database db1 = new Oracle2("jdbc:mysql://localhost:3306", "admin", "adminPass", "Oracle2");
+        SQLDefault sqlD = new Oracle2("jdbc:mysql://localhost:3306", "admin", "adminPass", "Oracle2");
 
         // 2. Explicit casting
         Oracle2 oracle = (Oracle2) db; // The compiler does not know Object to be Oracle2
