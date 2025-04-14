@@ -4,11 +4,6 @@ public class SuperKeyword { }
 
 class SuperClass {
     // No explicit constructor, so it uses the default no argument constructor with implicit super();
-
-    // No need to include this but this is how it looks:
-//    public SuperClass() {
-//        super(); // this happens by default
-//    }
 }
 
 class SubClass extends SuperClass {
