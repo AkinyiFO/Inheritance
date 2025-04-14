@@ -3,7 +3,12 @@ package dev.labs.s3;
 public class SuperKeyword { }
 
 class SuperClass {
-    // No explicit constructor, so it uses the default constructor from Object.
+    // No explicit constructor, so it uses the default no argument constructor with implicit super();
+
+    // No need to include this but this is how it looks:
+//    public SuperClass() {
+//        super(); // this happens by default
+//    }
 }
 
 class SubClass extends SuperClass {
@@ -22,14 +27,10 @@ class SuperClassParameterized {
 //
 //}
 
-class JustObjectSuperclass{
-
-}
-
 class TestIt {
     public static void main(String[] args) {
         SubClass sub = new SubClass();  // This works because SuperClass has a default constructor.
-//            SubClassParameterized subPar = new SubClassParameterized();
+//      SubClassParameterized subPar = new SubClassParameterized();
     }
 }
 
