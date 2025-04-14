@@ -2,7 +2,7 @@ package dev.labs.s3;
 
 public class Polymorphism {
     /*
-    Sub-class 1: OracleDatabase - A specific type of Database for Oracle
+    Sub-Class 1: OracleDatabase - A specific type of Database for Oracle
     */
     static class OracleDatabase extends Database {
 
@@ -27,7 +27,7 @@ public class Polymorphism {
     }
 
     /*
-    Sub-class 2: MySQLDatabase - A specific type of Database for MySQL
+    Sub-Class 2: MySQLDatabase - A specific type of Database for MySQL
     */
     static class MySQLDatabase extends Database {
 
