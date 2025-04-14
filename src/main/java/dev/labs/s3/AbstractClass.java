@@ -1,6 +1,6 @@
 package dev.labs.s3;
 
-// Cannot be instantiated.
+// CANNOT be instantiated.
 // CAN be subclassed.
 // MUST be declared abstract if it contains abstract methods.
 abstract class AbstractClass {
