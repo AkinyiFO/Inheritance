@@ -21,7 +21,7 @@ class SubAbstract extends AbstractClass{
 
 }
 
-// 2. abstract classes or interfaces may contain implemented or abstract methods:
+// 2. abstract classes or interfaces may contain concrete or abstract methods:
 // 3. In interfaces, all fields are automatically public, static, final. All methods are public by default.
 interface CompareWithAbstract{
     void methodAbstract();
@@ -32,7 +32,7 @@ interface CompareWithAbstract{
 
 class ComparisonTests{
     public static void main(String[] args) {
-        // 1. You cannot instantiate abstract classes or interfaces:
+        // You cannot instantiate abstract classes or interfaces:
 //        AbstractClass abstractClass = new AbstractClass();
 //        CompareWithAbstract compareWithAbstract = new CompareWithAbstract();
 
